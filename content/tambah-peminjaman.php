@@ -68,7 +68,7 @@ if (isset($_GET['detail'])): ?>
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
-                    <div class="card-header bg-secondary text-white">Detail Transaksi Peminjaman</div>
+                    <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Detail Transaksi Peminjaman</div>
                     <div class="card-body">
                         <div class="mb-3 row">
                             <div class="col-sm-6">
@@ -162,7 +162,7 @@ if (isset($_GET['detail'])): ?>
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
-                    <div class="card-header bg-secondary text-white">Data Peminjaman</div>
+                    <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Data Peminjaman</div>
                     <div class="card-body">
                         <form action="" method="post">
                             <div class="row mb-3">

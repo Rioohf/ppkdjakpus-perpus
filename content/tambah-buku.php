@@ -39,7 +39,7 @@ $kategori = mysqli_query($koneksi, "SELECT * FROM kategori ORDER BY id DESC");
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header bg-secondary text-white">Data buku</div>
+                <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Data buku</div>
                 <div class="card-body">
                     <form action="" method="post">
                         <div class="mb-3">

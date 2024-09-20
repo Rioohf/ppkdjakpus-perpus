@@ -5,7 +5,7 @@ $queryPinjam = mysqli_query($koneksi, "SELECT anggota.nama_lengkap as nama_anggo
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header bg-secondary text-white">Transaksi Peminjaman</div>
+                <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Transaksi Peminjaman</div>
                 <div class="card-body">
                     <div align="right" class="mb-3">
                         <a href="?pg=tambah-peminjaman" class="btn btn-outline-primary">Tambah</a>

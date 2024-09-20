@@ -5,7 +5,7 @@ $queryUser = mysqli_query($koneksi, "SELECT level.nama_level, user.* FROM user L
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header bg-secondary text-white">Data User</div>
+                <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Data User</div>
                 <div class="card-body">
                     <div align="right" class="mb-3">
                         <a href="?pg=tambah-user" class="btn btn-outline-primary">Tambah</a>

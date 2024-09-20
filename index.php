@@ -19,12 +19,23 @@ include 'function/helper.php';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         body {
-            background-image: url('assets/img/post-thumbnail.jpg');
+            background-image: url('assets/img/europeanlibrary.jpg');
             background-size: cover;
         }
 
         nav.menu {
-            background-color: #819AC3 !important;
+            background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+            /* background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);bagus */
+            /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);Bagus */
+            /* background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%); */
+            /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+            /* background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%); */
+            /* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+            /* background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%); */
+            /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+            /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+            /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+            /* background-color: #819AC3 !important; */
             box-shadow: 0 0 3px #000;
         }
     </style>
@@ -35,7 +46,10 @@ include 'function/helper.php';
         <nav class="menu navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <!-- <i class="bi bi-yin-yang"></i> -->
-                <i class="bi bi-tencent-qq"></i>
+                <!-- <i class="bi bi-tencent-qq"></i> -->
+                <!-- <i class="bi bi-feather"></i>
+                <i class="bi bi-magic"></i> -->
+                <i class="bi bi-mortarboard-fill"></i>
                 <!-- <i class="bi bi-globe-central-south-asia"></i> -->
                 <a class="navbar-brand" href="#">Perpustakaan</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -36,7 +36,7 @@ if (isset($_GET['delete'])) {
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header bg-secondary text-white">Data Anggota</div>
+                <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Data Anggota</div>
                 <div class="card-body">
                     <form action="" method="post">
                         <div class="mb-3">

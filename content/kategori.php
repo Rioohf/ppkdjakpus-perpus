@@ -5,7 +5,7 @@ $queryKategori = mysqli_query($koneksi, "SELECT * FROM kategori ORDER BY id DESC
     <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <div class="card-header bg-secondary text-white">Kategori</div>
+                <div class="card-header" style="background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);">Kategori</div>
                 <div class="card-body">
                     <div align="right" class="mb-3">
                         <a href="?pg=tambah-kategori" class="btn btn-outline-primary">Tambah</a>
